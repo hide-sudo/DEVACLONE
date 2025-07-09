@@ -1,4 +1,4 @@
-import re
+imported  re
 from os import getenv
 # ------------------------------------
 # ------------------------------------
@@ -73,8 +73,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Matlabi_Duniyah")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Botts_Supports")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/BotzEmpire")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/BotzEmpireSupport")
 CHAT = getenv("CHAT", "https://t.me/+MG2n8W4ZpuQwN2Q1")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
