@@ -42,7 +42,7 @@ LOGGER_ID = int(getenv( "LOGGER_ID" , "-1002419831380"))
 CLONE_LOGGER = LOGGER_ID
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-OWNER_ID = int(getenv("OWNER_ID", 7538572906))
+OWNER_ID = int(getenv("OWNER_ID", "7538572906"))
 # -----------------------------------------------------------------
 # -----------------------------------------------------------------
 # config.py
@@ -122,7 +122,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 BANNED_USERS = filters.user()
 adminlist = {}
